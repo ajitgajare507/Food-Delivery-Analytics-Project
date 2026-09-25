@@ -1,0 +1,501 @@
+order_id,customer_id,customer_name,restaurant_name,food_item,food_category,quantity,unit_price,total_amount,order_date,order_time,delivery_time_minutes,city,customer_rating,payment_method,delivery_status
+1,1201,Rahul Sharma,Pizza Hut,Veg Pizza,Pizza,2,250.0,500.0,2025-08-01,18:30:00,35,Mumbai,4.5,UPI,Delivered
+2,1202,Priya Patil,Dominos,Farmhouse Pizza,Pizza,1,450.0,450.0,2025-08-02,19:15:00,28,Pune,4.8,Card,Delivered
+3,1203,Amit Jadhav,KFC,Chicken Bucket,Fast Food,1,650.0,650.0,2025-08-03,20:10:00,42,Nashik,4.2,Cash,Delivered
+4,1204,Sneha More,McDonalds,French Fries,Snacks,3,90.0,270.0,2025-08-04,17:45:00,22,Nagpur,4.1,UPI,Delivered
+5,1205,Rohan Patil,Subway,Paneer Sandwich,Healthy,2,230.0,460.0,2025-08-05,13:20:00,24,Thane,4.6,Card,Delivered
+6,1206, Rahul Sharma ,Pizza Hut,Veg Pizza,Pizza,2,250.0,500.0,2025-08-06,18:35:00,34,Mumbai,4.5,UPI,Delivered
+7,1207,Kiran Shah,Burger King,Veg Burger,Burger,2,180.0,360.0,2025-08-07,15:30:00,27,Mumbai,4.0,Cash,Delivered
+8,1208,Neha Patil,Pizza Hut,Paneer Pizza,Pizza,1,320.0,320.0,2025-08-08,18:20:00,36,Pune,4.7,UPI,Delivered
+9,1209,Sagar More,KFC,Chicken Wings,Fast Food,2,280.0,560.0,2025-08-09,19:40:00,38,Nashik,4.4,Card,Delivered
+10,1210,Pooja Kale,Dominos,Peppy Paneer,Pizza,1,390.0,390.0,2025-08-10,20:00:00,29,Nagpur,4.6,UPI,Delivered
+11,1211,Ajay Patil,Subway,Veg Sandwich,Healthy,2,220.0,440.0,2025-08-11,13:10:00,23,Thane,4.4747916666666665,Cash,Delivered
+12,1212,Megha Shah,McDonalds,McVeggie,Burger,3,125.0,375.0,2025-08-12,16:20:00,21,Mumbai,4.2,UPI,Delivered
+13,1213,Omkar More,Burger King,Whopper,Burger,1,275.0,275.0,2025-08-13,18:15:00,31,Pune,4.5,Card,Delivered
+14,1214,Rutuja Patil,Pizza Hut,Cheese Pizza,Pizza,2,310.0,620.0,2025-08-14,19:25:00,35,Nashik,4.8,Cash,Delivered
+15,1215,Nilesh Shah,KFC,Chicken Popcorn,Fast Food,3,205.0,615.0,2025-08-15,20:15:00,36,Nagpur,4.3,UPI,Delivered
+16,1216,Anjali More,Dominos,Mexican Green Wave,Pizza,1,430.0,430.0,2025-08-16,21:05:00,28,mumbai,4.7,Card,Delivered
+17,1217,Kunal Patil,Subway,Paneer Tikka Sandwich,Healthy,2,255.0,510.0,2025-08-17,13:30:00,24,Thane,4.6,UPI,Delivered
+18,1218,Snehal Shah,Burger King,Cheese Burger,Burger,2,190.0,380.0,2025-08-18,15:45:00,28,Mumbai,4.1,Cash,Delivered
+19,1219,Akash More,Pizza Hut,Veg Feast Pizza,Pizza,2,360.0,720.0,2025-08-19,18:40:00,34,Pune,4.8,UPI,Delivered
+20,1220,Komal Patil,KFC,Chicken Burger,Burger,2,250.0,500.0,2025-08-20,19:50:00,32,Nashik,4.4,Card,Delivered
+21,1221,Priyanka Shah,McDonalds,French Fries,Snacks,4,85.0,340.0,2025-08-21,17:00:00,20,Nagpur,4.0,Unknown,Delivered
+22,1222,Harshal More,Dominos,Veg Extravaganza,Pizza,1,480.0,480.0,2025-08-22,20:20:00,29,Thane,4.7,UPI,Delivered
+23,1223,Monika Patil,Subway,Corn Sandwich,Healthy,2,215.0,430.0,2025-08-23,13:15:00,23,Mumbai,4.5,Card,Delivered
+24,1224,Vivek Shah,Burger King,King Burger,Burger,1,300.0,300.0,2025-08-24,15:20:00,30,Pune,4.3,Cash,Delivered
+25,1225,Deepali More,Pizza Hut,Margherita Pizza,Pizza,2,290.0,580.0,2025-08-25,18:35:00,33,Nashik,4.6,UPI,Delivered
+26,1226,Rahul Sharma,Pizza Hut,Veg Pizza,Pizza,2,250.0,500.0,2025-08-01,18:30:00,35,Mumbai,4.5,UPI,Delivered
+27,1227,Sachin Patil,KFC,Hot Wings,Fast Food,2,290.0,580.0,2025-08-26,19:45:00,37,Nagpur,4.4,Card,Delivered
+28,1228,Bhakti Shah,Dominos,Cheese Burst Pizza,Pizza,1,510.0,510.0,2025-08-27,20:25:00,28,Thane,4.9,UPI,Delivered
+29,1229,Aniket More,Subway,Veggie Delight,Healthy,2,235.0,470.0,2025-08-28,13:25:00,24,Mumbai,4.3,Cash,Delivered
+30,1230,Rohini Patil,Burger King,Veg Whopper,Burger,1,245.0,245.0,2025-08-29,15:50:00,27,Pune,4.2,Card,Delivered
+31,1231,Gaurav Shah,Pizza Hut,Loaded Veg Pizza,Pizza,2,405.0,810.0,2025-08-30,18:45:00,36,Nashik,4.8,UPI,Delivered
+32,1232,Pallavi More,KFC,Chicken Strips,Fast Food,2,245.0,490.0,2025-08-31,19:35:00,35,Nagpur,4.3,Cash,Delivered
+33,1233,Yash Patil,Dominos,Paneer Makhani Pizza,Pizza,1,420.0,420.0,2025-09-01,20:10:00,29,Thane,4.7,Card,Delivered
+34,1234,Reshma Shah,McDonalds,McChicken,Burger,2,220.0,440.0,2025-09-02,16:30:00,22,Mumbai,4.5,UPI,Delivered
+35,1235,Tejas More,Subway,Cheese Sandwich,Healthy,2,240.0,480.0,2025-09-03,13:40:00,24,Pune,4.4,Cash,Delivered
+36,1236,Aarti Patil,Pizza Hut,Paneer Pizza,Pizza,1,340.0,340.0,2025-09-04,18:20:00,35,MUMBAI,4.6,Card,Delivered
+37,1237,Manish Shah,KFC,Chicken Bucket,Fast Food,1,730.0,730.0,2025-09-05,20:20:00,42,Nashik,4.6,UPI,Delivered
+38,1238,Vaibhavi More,Dominos,Deluxe Veggie Pizza,Pizza,1,455.0,455.0,2025-09-06,19:05:00,28,Nagpur,4.8,Cash,Delivered
+39,1239,Rajesh Patil,Burger King,Crispy Veg Burger,Burger,2,190.0,380.0,2025-09-07,15:30:00,27,Thane,4.1,Card,Delivered
+40,1240,Sneha Shah,Subway,Paneer Sandwich,Healthy,2,245.0,490.0,2025-09-08,13:35:00,24,Mumbai,4.5,UPI,Delivered
+41,1241,Omkar Patil,Pizza Hut,Cheese Pizza,Pizza,2,325.0,650.0,2025-09-09,18:50:00,34,Pune,4.4747916666666665,Cash,Delivered
+42,1242,Nikita More,KFC,Chicken Popcorn,Fast Food,3,220.0,660.0,2025-09-10,19:50:00,36,Nashik,4.4,Card,Delivered
+43,1243,Rakesh Shah,Dominos,Farmhouse Pizza,Pizza,1,450.0,450.0,2025-09-11,20:15:00,29,Nagpur,4.6,UPI,Delivered
+44,1244,Megha Patil,McDonalds,McVeggie,Burger,3,130.0,390.0,2025-09-12,17:10:00,21,Thane,4.2,Cash,Delivered
+45,1245,Abhishek More,Subway,Veg Sandwich,Healthy,2,225.0,450.0,2025-09-13,13:15:00,23,Mumbai,4.3,Card,Delivered
+46,1246,Kajal Shah,Burger King,Whopper,Burger,1,280.0,280.0,2025-09-14,15:45:00,30,Pune,4.6,UPI,Delivered
+47,1247,Pratik Patil,Pizza Hut,Veggie Paradise Pizza,Pizza,2,370.0,740.0,2025-09-15,18:40:00,35,Nashik,4.8,Cash,Delivered
+48,1248,Rutuja More,KFC,Hot Crispy Chicken,Fast Food,2,320.0,640.0,2025-09-16,19:55:00,39,Nagpur,4.5,Card,Delivered
+49,1249,Sanket Shah,Dominos,Cheese n Corn Pizza,Pizza,1,370.0,370.0,2025-09-17,20:25:00,28,Thane,4.5,UPI,Delivered
+50,1250,Pooja Patil,McDonalds,French Fries,Snacks,4,90.0,360.0,2025-09-18,17:20:00,20,Mumbai,4.1,Cash,Delivered
+51,1251,Rahul Patil,Pizza Hut,Veg Pizza,Pizza,2,260.0,520.0,2025-09-19,18:20:00,34,Mumbai,4.5,UPI,Delivered
+52,1252,Sneha More,Dominos,Farmhouse Pizza,Pizza,1,460.0,460.0,2025-09-20,19:10:00,28,Pune,4.8,Card,Delivered
+53,1253,Amit Shah,KFC,Chicken Bucket,Fast Food,1,670.0,670.0,2025-09-21,20:15:00,41,Nashik,4.3,Cash,Delivered
+54,1254,Pooja Patil,McDonalds,French Fries,Snacks,3,95.0,285.0,2025-09-22,17:30:00,21,Nagpur,4.1,UPI,Delivered
+55,1255,Rohan More,Subway,Paneer Sandwich,Healthy,2,240.0,480.0,2025-09-23,13:35:00,24,Thane,4.6,Card,Delivered
+56,1256, Rahul Patil ,Pizza Hut,Veg Pizza,Pizza,2,260.0,520.0,2025-09-24,18:25:00,35,Mumbai,4.5,UPI,Delivered
+57,1257,Kiran Jadhav,Burger King,Veg Burger,Burger,2,185.0,370.0,2025-09-25,15:20:00,28,Mumbai,4.0,Cash,Delivered
+58,1258,Neha Kale,Pizza Hut,Paneer Pizza,Pizza,1,330.0,330.0,2025-09-26,18:15:00,36,Pune,4.7,UPI,Delivered
+59,1259,Sagar Patil,KFC,Chicken Wings,Fast Food,2,285.0,570.0,2025-09-27,19:40:00,38,Nashik,4.4,Card,Delivered
+60,1260,Anjali Shah,Dominos,Peppy Paneer,Pizza,1,400.0,400.0,2025-09-28,20:00:00,29,Nagpur,4.6,UPI,Delivered
+61,1261,Tejas More,Subway,Veg Sandwich,Healthy,2,225.0,450.0,2025-09-29,13:15:00,23,Thane,4.4747916666666665,Cash,Delivered
+62,1262,Komal Patil,McDonalds,McVeggie,Burger,3,130.0,390.0,2025-09-30,16:20:00,21,Mumbai,4.2,UPI,Delivered
+63,1263,Vikas Shah,Burger King,Whopper,Burger,1,280.0,280.0,2025-10-01,18:10:00,30,Pune,4.5,Card,Delivered
+64,1264,Rutuja More,Pizza Hut,Cheese Pizza,Pizza,2,320.0,640.0,2025-10-02,19:20:00,34,Nashik,4.8,Cash,Delivered
+65,1265,Nilesh Patil,KFC,Chicken Popcorn,Fast Food,3,210.0,630.0,2025-10-03,20:10:00,36,Nagpur,4.3,UPI,Delivered
+66,1266,Priyanka Shah,Dominos,Mexican Green Wave,Pizza,1,440.0,440.0,2025-10-04,21:00:00,28,mumbai,4.7,Card,Delivered
+67,1267,Harshal More,Subway,Paneer Tikka Sandwich,Healthy,2,260.0,520.0,2025-10-05,13:30:00,25,Thane,4.6,UPI,Delivered
+68,1268,Monika Patil,Burger King,Cheese Burger,Burger,2,195.0,390.0,2025-10-06,15:45:00,28,Mumbai,4.1,Cash,Delivered
+69,1269,Deepali Shah,Pizza Hut,Veg Feast Pizza,Pizza,2,370.0,740.0,2025-10-07,18:40:00,35,Pune,4.8,UPI,Delivered
+70,1270,Sachin More,KFC,Chicken Burger,Burger,2,255.0,510.0,2025-10-08,19:50:00,32,Nashik,4.4,Card,Delivered
+71,1271,Bhakti Patil,McDonalds,French Fries,Snacks,4,90.0,360.0,2025-10-09,17:00:00,20,Nagpur,4.0,Unknown,Delivered
+72,1272,Aniket Shah,Dominos,Veg Extravaganza,Pizza,1,490.0,490.0,2025-10-10,20:20:00,29,Thane,4.7,UPI,Delivered
+73,1273,Rohini More,Subway,Corn Sandwich,Healthy,2,220.0,440.0,2025-10-11,13:10:00,23,Mumbai,4.5,Card,Delivered
+74,1274,Gaurav Patil,Burger King,King Burger,Burger,1,305.0,305.0,2025-10-12,15:15:00,30,Pune,4.3,Cash,Delivered
+75,1275,Pallavi Shah,Pizza Hut,Margherita Pizza,Pizza,2,295.0,590.0,2025-10-13,18:30:00,33,Nashik,4.6,UPI,Delivered
+76,1276,Rahul Patil,Pizza Hut,Veg Pizza,Pizza,2,260.0,520.0,2025-09-19,18:20:00,34,Mumbai,4.5,UPI,Delivered
+77,1277,Yash More,KFC,Hot Wings,Fast Food,2,295.0,590.0,2025-10-14,19:45:00,37,Nagpur,4.4,Card,Delivered
+78,1278,Reshma Patil,Dominos,Cheese Burst Pizza,Pizza,1,520.0,520.0,2025-10-15,20:25:00,28,Thane,4.9,UPI,Delivered
+79,1279,Ajay Shah,Subway,Veggie Delight,Healthy,2,240.0,480.0,2025-10-16,13:20:00,24,Mumbai,4.3,Cash,Delivered
+80,1280,Vaibhavi More,Burger King,Veg Whopper,Burger,1,250.0,250.0,2025-10-17,15:50:00,27,Pune,4.2,Card,Delivered
+81,1281,Megha Patil,Pizza Hut,Loaded Veg Pizza,Pizza,2,410.0,820.0,2025-10-18,18:45:00,36,Nashik,4.8,UPI,Delivered
+82,1282,Omkar Shah,KFC,Chicken Strips,Fast Food,2,250.0,500.0,2025-10-19,19:35:00,35,Nagpur,4.3,Cash,Delivered
+83,1283,Nikita More,Dominos,Paneer Makhani Pizza,Pizza,1,425.0,425.0,2025-10-20,20:10:00,29,Thane,4.7,Card,Delivered
+84,1284,Rakesh Patil,McDonalds,McChicken,Burger,2,225.0,450.0,2025-10-21,16:25:00,22,Mumbai,4.5,UPI,Delivered
+85,1285,Kajal Shah,Subway,Cheese Sandwich,Healthy,2,245.0,490.0,2025-10-22,13:35:00,24,Pune,4.4,Cash,Delivered
+86,1286,Pratik More,Pizza Hut,Paneer Pizza,Pizza,1,345.0,345.0,2025-10-23,18:20:00,35,MUMBAI,4.6,Card,Delivered
+87,1287,Rutuja Patil,KFC,Chicken Bucket,Fast Food,1,740.0,740.0,2025-10-24,20:20:00,42,Nashik,4.6,UPI,Delivered
+88,1288,Sanket Shah,Dominos,Deluxe Veggie Pizza,Pizza,1,460.0,460.0,2025-10-25,19:05:00,28,Nagpur,4.8,Cash,Delivered
+89,1289,Pooja More,Burger King,Crispy Veg Burger,Burger,2,195.0,390.0,2025-10-26,15:25:00,27,Thane,4.1,Card,Delivered
+90,1290,Tejas Patil,Subway,Paneer Sandwich,Healthy,2,250.0,500.0,2025-10-27,13:30:00,24,Mumbai,4.5,UPI,Delivered
+91,1291,Anjali Shah,Pizza Hut,Cheese Pizza,Pizza,2,330.0,660.0,2025-10-28,18:50:00,34,Pune,4.4747916666666665,Cash,Delivered
+92,1292,Manish More,KFC,Chicken Popcorn,Fast Food,3,225.0,675.0,2025-10-29,19:50:00,36,Nashik,4.4,Card,Delivered
+93,1293,Sneha Patil,Dominos,Farmhouse Pizza,Pizza,1,455.0,455.0,2025-10-30,20:15:00,29,Nagpur,4.6,UPI,Delivered
+94,1294,Abhishek Shah,McDonalds,McVeggie,Burger,3,135.0,405.0,2025-10-31,17:05:00,21,Thane,4.2,Cash,Delivered
+95,1295,Priya More,Subway,Veg Sandwich,Healthy,2,230.0,460.0,2025-11-01,13:10:00,23,Mumbai,4.3,Card,Delivered
+96,1296,Kiran Patil,Burger King,Whopper,Burger,1,285.0,285.0,2025-11-02,15:40:00,30,Pune,4.6,UPI,Delivered
+97,1297,Monika Shah,Pizza Hut,Veggie Paradise Pizza,Pizza,2,375.0,750.0,2025-11-03,18:40:00,35,Nashik,4.8,Cash,Delivered
+98,1298,Harshal Patil,KFC,Hot Crispy Chicken,Fast Food,2,325.0,650.0,2025-11-04,19:55:00,39,Nagpur,4.5,Card,Delivered
+99,1299,Deepali More,Dominos,Cheese n Corn Pizza,Pizza,1,375.0,375.0,2025-11-05,20:25:00,28,Thane,4.5,UPI,Delivered
+100,1300,Akash Shah,McDonalds,French Fries,Snacks,4,95.0,380.0,2025-11-06,17:15:00,20,Mumbai,4.1,Cash,Delivered
+101,1301,Rahul Kulkarni,Pizza Hut,Veg Pizza,Pizza,2,265.0,530.0,2025-11-07,18:20:00,34,Mumbai,4.5,UPI,Delivered
+102,1302,Sneha Jadhav,Dominos,Farmhouse Pizza,Pizza,1,465.0,465.0,2025-11-08,19:10:00,28,Pune,4.8,Card,Delivered
+103,1303,Amit Patil,KFC,Chicken Bucket,Fast Food,1,680.0,680.0,2025-11-09,20:15:00,41,Nashik,4.3,Cash,Delivered
+104,1304,Pooja Shah,McDonalds,French Fries,Snacks,3,95.0,285.0,2025-11-10,17:30:00,21,Nagpur,4.1,UPI,Delivered
+105,1305,Rohan More,Subway,Paneer Sandwich,Healthy,2,245.0,490.0,2025-11-11,13:35:00,24,Thane,4.6,Card,Delivered
+106,1306,Kiran Patil,Burger King,Veg Burger,Burger,2,185.0,370.0,2025-11-12,15:20:00,28,Mumbai,4.0,Cash,Delivered
+107,1307,Neha Shah,Pizza Hut,Paneer Pizza,Pizza,1,335.0,335.0,2025-11-13,18:15:00,36,Pune,4.7,UPI,Delivered
+108,1308,Sagar Kale,KFC,Chicken Wings,Fast Food,2,290.0,580.0,2025-11-14,19:40:00,38,Nashik,4.4,Card,Delivered
+109,1309,Anjali More,Dominos,Peppy Paneer,Pizza,1,405.0,405.0,2025-11-15,20:00:00,29,Nagpur,4.6,UPI,Delivered
+110,1310,Tejas Patil,Subway,Veg Sandwich,Healthy,2,230.0,460.0,2025-11-16,13:15:00,23,Thane,4.4747916666666665,Cash,Delivered
+111,1311,Komal Shah,McDonalds,McVeggie,Burger,3,130.0,390.0,2025-11-17,16:20:00,21,Mumbai,4.2,UPI,Delivered
+112,1312,Vikas More,Burger King,Whopper,Burger,1,285.0,285.0,2025-11-18,18:10:00,30,Pune,4.5,Card,Delivered
+113,1313,Rutuja Patil,Pizza Hut,Cheese Pizza,Pizza,2,325.0,650.0,2025-11-19,19:20:00,34,Nashik,4.8,Cash,Delivered
+114,1314,Nilesh Shah,KFC,Chicken Popcorn,Fast Food,3,215.0,645.0,2025-11-20,20:10:00,36,Nagpur,4.3,UPI,Delivered
+115,1315,Priyanka More,Dominos,Mexican Green Wave,Pizza,1,445.0,445.0,2025-11-21,21:00:00,28,Mumbai,4.7,Card,Delivered
+116,1316,Harshal Patil,Subway,Paneer Tikka Sandwich,Healthy,2,265.0,530.0,2025-11-22,13:30:00,25,Thane,4.6,UPI,Delivered
+117,1317,Monika Shah,Burger King,Cheese Burger,Burger,2,200.0,400.0,2025-11-23,15:45:00,28,Mumbai,4.1,Cash,Delivered
+118,1318,Deepali Patil,Pizza Hut,Veg Feast Pizza,Pizza,2,375.0,750.0,2025-11-24,18:40:00,35,Pune,4.8,UPI,Delivered
+119,1319,Sachin More,KFC,Chicken Burger,Burger,2,260.0,520.0,2025-11-25,19:50:00,32,Nashik,4.4,Card,Delivered
+120,1320,Bhakti Shah,McDonalds,French Fries,Snacks,4,95.0,380.0,2025-11-26,17:00:00,20,Nagpur,4.0,Unknown,Delivered
+121,1321,Aniket Patil,Dominos,Veg Extravaganza,Pizza,1,495.0,495.0,2025-11-27,20:20:00,29,Thane,4.7,UPI,Delivered
+122,1322,Rohini More,Subway,Corn Sandwich,Healthy,2,225.0,450.0,2025-11-28,13:10:00,23,Mumbai,4.5,Card,Delivered
+123,1323,Gaurav Shah,Burger King,King Burger,Burger,1,310.0,310.0,2025-11-29,15:15:00,30,Pune,4.3,Cash,Delivered
+124,1324,Pallavi Patil,Pizza Hut,Margherita Pizza,Pizza,2,300.0,600.0,2025-11-30,18:30:00,33,Nashik,4.6,UPI,Delivered
+125,1325,Yash More,KFC,Hot Wings,Fast Food,2,300.0,600.0,2025-12-01,19:45:00,37,Nagpur,4.4,Card,Delivered
+126,1326,Reshma Shah,Dominos,Cheese Burst Pizza,Pizza,1,525.0,525.0,2025-12-02,20:25:00,28,Thane,4.9,UPI,Delivered
+127,1327,Ajay Patil,Subway,Veggie Delight,Healthy,2,245.0,490.0,2025-12-03,13:20:00,24,Mumbai,4.3,Cash,Delivered
+128,1328,Vaibhavi More,Burger King,Veg Whopper,Burger,1,255.0,255.0,2025-12-04,15:50:00,27,Pune,4.2,Card,Delivered
+129,1329,Megha Shah,Pizza Hut,Loaded Veg Pizza,Pizza,2,415.0,830.0,2025-12-05,18:45:00,36,Nashik,4.8,UPI,Delivered
+130,1330,Omkar Patil,KFC,Chicken Strips,Fast Food,2,255.0,510.0,2025-12-06,19:35:00,35,Nagpur,4.3,Cash,Delivered
+131,1331,Nikita More,Dominos,Paneer Makhani Pizza,Pizza,1,430.0,430.0,2025-12-07,20:10:00,29,Thane,4.7,Card,Delivered
+132,1332,Rakesh Shah,McDonalds,McChicken,Burger,2,230.0,460.0,2025-12-08,16:25:00,22,Mumbai,4.5,UPI,Delivered
+133,1333,Kajal Patil,Subway,Cheese Sandwich,Healthy,2,250.0,500.0,2025-12-09,13:35:00,24,Pune,4.4,Cash,Delivered
+134,1334,Pratik More,Pizza Hut,Paneer Pizza,Pizza,1,350.0,350.0,2025-12-10,18:20:00,35,Mumbai,4.6,Card,Delivered
+135,1335,Rutuja Shah,KFC,Chicken Bucket,Fast Food,1,750.0,750.0,2025-12-11,20:20:00,42,Nashik,4.6,UPI,Delivered
+136,1336,Sanket Patil,Dominos,Deluxe Veggie Pizza,Pizza,1,465.0,465.0,2025-12-12,19:05:00,28,Nagpur,4.8,Cash,Delivered
+137,1337,Pooja More,Burger King,Crispy Veg Burger,Burger,2,200.0,400.0,2025-12-13,15:25:00,27,Thane,4.1,Card,Delivered
+138,1338,Tejas Shah,Subway,Paneer Sandwich,Healthy,2,255.0,510.0,2025-12-14,13:30:00,24,Mumbai,4.5,UPI,Delivered
+139,1339,Anjali Patil,Pizza Hut,Cheese Pizza,Pizza,2,335.0,670.0,2025-12-15,18:50:00,34,Pune,4.4747916666666665,Cash,Delivered
+140,1340,Manish More,KFC,Chicken Popcorn,Fast Food,3,230.0,690.0,2025-12-16,19:50:00,36,Nashik,4.4,Card,Delivered
+141,1341,Sneha Shah,Dominos,Farmhouse Pizza,Pizza,1,460.0,460.0,2025-12-17,20:15:00,29,Nagpur,4.6,UPI,Delivered
+142,1342,Abhishek Patil,McDonalds,McVeggie,Burger,3,140.0,420.0,2025-12-18,17:05:00,21,Thane,4.2,Cash,Delivered
+143,1343,Priya More,Subway,Veg Sandwich,Healthy,2,235.0,470.0,2025-12-19,13:10:00,23,Mumbai,4.3,Card,Delivered
+144,1344,Kiran Shah,Burger King,Whopper,Burger,1,290.0,290.0,2025-12-20,15:40:00,30,Pune,4.6,UPI,Delivered
+145,1345,Monika Patil,Pizza Hut,Veggie Paradise Pizza,Pizza,2,380.0,760.0,2025-12-21,18:40:00,35,Nashik,4.8,Cash,Delivered
+146,1346,Harshal More,KFC,Hot Crispy Chicken,Fast Food,2,330.0,660.0,2025-12-22,19:55:00,39,Nagpur,4.5,Card,Delivered
+147,1347,Deepali Shah,Dominos,Cheese n Corn Pizza,Pizza,1,380.0,380.0,2025-12-23,20:25:00,28,Thane,4.5,UPI,Delivered
+148,1348,Akash Patil,McDonalds,French Fries,Snacks,4,100.0,400.0,2025-12-24,17:15:00,20,Mumbai,4.1,Cash,Delivered
+149,1349,Rohit More,Subway,Paneer Tikka Sandwich,Healthy,2,265.0,530.0,2025-12-25,13:25:00,24,Pune,4.7,Card,Delivered
+150,1350,Neha Shah,Burger King,Cheese Burger,Burger,2,205.0,410.0,2025-12-26,15:35:00,28,Nashik,4.2,UPI,Delivered
+151,1351,Rahul Jadhav,Pizza Hut,Veg Supreme Pizza,Pizza,2,385.0,770.0,2025-12-27,18:20:00,35,Mumbai,4.7,UPI,Delivered
+152,1352,Sneha Patil,Dominos,Farmhouse Pizza,Pizza,1,470.0,470.0,2025-12-28,19:10:00,28,Pune,4.8,Card,Delivered
+153,1353,Amit More,KFC,Chicken Bucket,Fast Food,1,760.0,760.0,2025-12-29,20:15:00,42,Nashik,4.5,Cash,Delivered
+154,1354,Pooja Shah,McDonalds,French Fries,Snacks,4,95.0,380.0,2025-12-30,17:25:00,21,Nagpur,4.1,UPI,Delivered
+155,1355,Rohan Patil,Subway,Paneer Sandwich,Healthy,2,250.0,500.0,2025-12-31,13:30:00,24,Thane,4.6,Card,Delivered
+156,1356,Kiran More,Burger King,Veg Burger,Burger,2,190.0,380.0,2026-01-01,15:20:00,28,Mumbai,4.0,Cash,Delivered
+157,1357,Neha Jadhav,Pizza Hut,Paneer Pizza,Pizza,1,340.0,340.0,2026-01-02,18:15:00,36,Pune,4.7,UPI,Delivered
+158,1358,Sagar Shah,KFC,Chicken Wings,Fast Food,2,295.0,590.0,2026-01-03,19:40:00,38,Nashik,4.4,Card,Delivered
+159,1359,Anjali Patil,Dominos,Peppy Paneer,Pizza,1,410.0,410.0,2026-01-04,20:00:00,29,Nagpur,4.6,UPI,Delivered
+160,1360,Tejas More,Subway,Veg Sandwich,Healthy,2,235.0,470.0,2026-01-05,13:15:00,23,Thane,4.4747916666666665,Cash,Delivered
+161,1361,Komal Shah,McDonalds,McVeggie,Burger,3,135.0,405.0,2026-01-06,16:20:00,21,Mumbai,4.2,UPI,Delivered
+162,1362,Vikas Patil,Burger King,Whopper,Burger,1,290.0,290.0,2026-01-07,18:10:00,30,Pune,4.5,Card,Delivered
+163,1363,Rutuja More,Pizza Hut,Cheese Pizza,Pizza,2,330.0,660.0,2026-01-08,19:20:00,34,Nashik,4.8,Cash,Delivered
+164,1364,Nilesh Patil,KFC,Chicken Popcorn,Fast Food,3,220.0,660.0,2026-01-09,20:10:00,36,Nagpur,4.3,UPI,Delivered
+165,1365,Priyanka Shah,Dominos,Mexican Green Wave,Pizza,1,450.0,450.0,2026-01-10,21:00:00,28,Mumbai,4.7,Card,Delivered
+166,1366,Harshal More,Subway,Paneer Tikka Sandwich,Healthy,2,270.0,540.0,2026-01-11,13:30:00,25,Thane,4.6,UPI,Delivered
+167,1367,Monika Patil,Burger King,Cheese Burger,Burger,2,205.0,410.0,2026-01-12,15:45:00,28,Mumbai,4.1,Cash,Delivered
+168,1368,Deepali Shah,Pizza Hut,Veg Feast Pizza,Pizza,2,380.0,760.0,2026-01-13,18:40:00,35,Pune,4.8,UPI,Delivered
+169,1369,Sachin Patil,KFC,Chicken Burger,Burger,2,265.0,530.0,2026-01-14,19:50:00,32,Nashik,4.4,Card,Delivered
+170,1370,Bhakti More,McDonalds,French Fries,Snacks,4,100.0,400.0,2026-01-15,17:00:00,20,Nagpur,4.0,Unknown,Delivered
+171,1371,Aniket Shah,Dominos,Veg Extravaganza,Pizza,1,500.0,500.0,2026-01-16,20:20:00,29,Thane,4.7,UPI,Delivered
+172,1372,Rohini Patil,Subway,Corn Sandwich,Healthy,2,230.0,460.0,2026-01-17,13:10:00,23,Mumbai,4.5,Card,Delivered
+173,1373,Gaurav More,Burger King,King Burger,Burger,1,315.0,315.0,2026-01-18,15:15:00,30,Pune,4.3,Cash,Delivered
+174,1374,Pallavi Shah,Pizza Hut,Margherita Pizza,Pizza,2,305.0,610.0,2026-01-19,18:30:00,33,Nashik,4.6,UPI,Delivered
+175,1375,Yash Patil,KFC,Hot Wings,Fast Food,2,305.0,610.0,2026-01-20,19:45:00,37,Nagpur,4.4,Card,Delivered
+176,1376,Reshma More,Dominos,Cheese Burst Pizza,Pizza,1,530.0,530.0,2026-01-21,20:25:00,28,Thane,4.9,UPI,Delivered
+177,1377,Ajay Shah,Subway,Veggie Delight,Healthy,2,250.0,500.0,2026-01-22,13:20:00,24,Mumbai,4.3,Cash,Delivered
+178,1378,Vaibhavi Patil,Burger King,Veg Whopper,Burger,1,260.0,260.0,2026-01-23,15:50:00,27,Pune,4.2,Card,Delivered
+179,1379,Megha More,Pizza Hut,Loaded Veg Pizza,Pizza,2,420.0,840.0,2026-01-24,18:45:00,36,Nashik,4.8,UPI,Delivered
+180,1380,Omkar Shah,KFC,Chicken Strips,Fast Food,2,260.0,520.0,2026-01-25,19:35:00,35,Nagpur,4.3,Cash,Delivered
+181,1381,Nikita Patil,Dominos,Paneer Makhani Pizza,Pizza,1,435.0,435.0,2026-01-26,20:10:00,29,Thane,4.7,Card,Delivered
+182,1382,Rakesh More,McDonalds,McChicken,Burger,2,235.0,470.0,2026-01-27,16:25:00,22,Mumbai,4.5,UPI,Delivered
+183,1383,Kajal Shah,Subway,Cheese Sandwich,Healthy,2,255.0,510.0,2026-01-28,13:35:00,24,Pune,4.4,Cash,Delivered
+184,1384,Pratik Patil,Pizza Hut,Paneer Pizza,Pizza,1,355.0,355.0,2026-01-29,18:20:00,35,Mumbai,4.6,Card,Delivered
+185,1385,Rutuja More,KFC,Chicken Bucket,Fast Food,1,755.0,755.0,2026-01-30,20:20:00,42,Nashik,4.6,UPI,Delivered
+186,1386,Sanket Shah,Dominos,Deluxe Veggie Pizza,Pizza,1,470.0,470.0,2026-01-31,19:05:00,28,Nagpur,4.8,Cash,Delivered
+187,1387,Pooja Patil,Burger King,Crispy Veg Burger,Burger,2,205.0,410.0,2026-02-01,15:25:00,27,Thane,4.1,Card,Delivered
+188,1388,Tejas More,Subway,Paneer Sandwich,Healthy,2,260.0,520.0,2026-02-02,13:30:00,24,Mumbai,4.5,UPI,Delivered
+189,1389,Anjali Shah,Pizza Hut,Cheese Pizza,Pizza,2,340.0,680.0,2026-02-03,18:50:00,34,Pune,4.4747916666666665,Cash,Delivered
+190,1390,Manish Patil,KFC,Chicken Popcorn,Fast Food,3,235.0,705.0,2026-02-04,19:50:00,36,Nashik,4.4,Card,Delivered
+191,1391,Sneha More,Dominos,Farmhouse Pizza,Pizza,1,465.0,465.0,2026-02-05,20:15:00,29,Nagpur,4.6,UPI,Delivered
+192,1392,Abhishek Shah,McDonalds,McVeggie,Burger,3,145.0,435.0,2026-02-06,17:05:00,21,Thane,4.2,Cash,Delivered
+193,1393,Priya Patil,Subway,Veg Sandwich,Healthy,2,240.0,480.0,2026-02-07,13:10:00,23,Mumbai,4.3,Card,Delivered
+194,1394,Kiran More,Burger King,Whopper,Burger,1,295.0,295.0,2026-02-08,15:40:00,30,Pune,4.6,UPI,Delivered
+195,1395,Monika Shah,Pizza Hut,Veggie Paradise Pizza,Pizza,2,385.0,770.0,2026-02-09,18:40:00,35,Nashik,4.8,Cash,Delivered
+196,1396,Harshal Patil,KFC,Hot Crispy Chicken,Fast Food,2,335.0,670.0,2026-02-10,19:55:00,39,Nagpur,4.5,Card,Delivered
+197,1397,Deepali More,Dominos,Cheese n Corn Pizza,Pizza,1,385.0,385.0,2026-02-11,20:25:00,28,Thane,4.5,UPI,Delivered
+198,1398,Akash Shah,McDonalds,French Fries,Snacks,4,105.0,420.0,2026-02-12,17:15:00,20,Mumbai,4.1,Cash,Delivered
+199,1399,Rohit Patil,Subway,Paneer Tikka Sandwich,Healthy,2,270.0,540.0,2026-02-13,13:25:00,24,Pune,4.7,Card,Delivered
+200,1400,Neha More,Burger King,Cheese Burger,Burger,2,210.0,420.0,2026-02-14,15:35:00,28,Nashik,4.2,UPI,Delivered
+201,1401,Rahul Patil,Pizza Hut,Veg Loaded Pizza,Pizza,2,390.0,780.0,2026-02-15,18:20:00,35,Mumbai,4.7,UPI,Delivered
+202,1402,Sneha Shah,Dominos,Cheese Burst Pizza,Pizza,1,540.0,540.0,2026-02-16,19:10:00,28,Pune,4.8,Card,Delivered
+203,1403,Amit More,KFC,Chicken Bucket,Fast Food,1,770.0,770.0,2026-02-17,20:15:00,42,Nashik,4.5,Cash,Delivered
+204,1404,Pooja Patil,McDonalds,French Fries,Snacks,4,100.0,400.0,2026-02-18,17:25:00,21,Nagpur,4.1,UPI,Delivered
+205,1405,Rohan Shah,Subway,Paneer Sandwich,Healthy,2,255.0,510.0,2026-02-19,13:30:00,24,Thane,4.6,Card,Delivered
+206,1406,Kiran More,Burger King,Veg Burger,Burger,2,195.0,390.0,2026-02-20,15:20:00,28,Mumbai,4.0,Cash,Delivered
+207,1407,Neha Patil,Pizza Hut,Paneer Pizza,Pizza,1,345.0,345.0,2026-02-21,18:15:00,36,Pune,4.7,UPI,Delivered
+208,1408,Sagar Shah,KFC,Chicken Wings,Fast Food,2,300.0,600.0,2026-02-22,19:40:00,38,Nashik,4.4,Card,Delivered
+209,1409,Anjali More,Dominos,Peppy Paneer,Pizza,1,415.0,415.0,2026-02-23,20:00:00,29,Nagpur,4.6,UPI,Delivered
+210,1410,Tejas Patil,Subway,Veg Sandwich,Healthy,2,240.0,480.0,2026-02-24,13:15:00,23,Thane,4.4747916666666665,Cash,Delivered
+211,1411,Komal Shah,McDonalds,McVeggie,Burger,3,140.0,420.0,2026-02-25,16:20:00,21,Mumbai,4.2,UPI,Delivered
+212,1412,Vikas More,Burger King,Whopper,Burger,1,300.0,300.0,2026-02-26,18:10:00,30,Pune,4.5,Card,Delivered
+213,1413,Rutuja Patil,Pizza Hut,Cheese Pizza,Pizza,2,335.0,670.0,2026-02-27,19:20:00,34,Nashik,4.8,Cash,Delivered
+214,1414,Nilesh Shah,KFC,Chicken Popcorn,Fast Food,3,225.0,675.0,2026-02-28,20:10:00,36,Nagpur,4.3,UPI,Delivered
+215,1415,Priyanka More,Dominos,Mexican Green Wave,Pizza,1,455.0,455.0,2026-03-01,21:00:00,28,Mumbai,4.7,Card,Delivered
+216,1416,Harshal Patil,Subway,Paneer Tikka Sandwich,Healthy,2,275.0,550.0,2026-03-02,13:30:00,25,Thane,4.6,UPI,Delivered
+217,1417,Monika Shah,Burger King,Cheese Burger,Burger,2,210.0,420.0,2026-03-03,15:45:00,28,Mumbai,4.1,Cash,Delivered
+218,1418,Deepali More,Pizza Hut,Veg Feast Pizza,Pizza,2,385.0,770.0,2026-03-04,18:40:00,35,Pune,4.8,UPI,Delivered
+219,1419,Sachin Patil,KFC,Chicken Burger,Burger,2,270.0,540.0,2026-03-05,19:50:00,32,Nashik,4.4,Card,Delivered
+220,1420,Bhakti Shah,McDonalds,French Fries,Snacks,4,105.0,420.0,2026-03-06,17:00:00,20,Nagpur,4.0,Unknown,Delivered
+221,1421,Aniket More,Dominos,Veg Extravaganza,Pizza,1,505.0,505.0,2026-03-07,20:20:00,29,Thane,4.7,UPI,Delivered
+222,1422,Rohini Patil,Subway,Corn Sandwich,Healthy,2,235.0,470.0,2026-03-08,13:10:00,23,Mumbai,4.5,Card,Delivered
+223,1423,Gaurav Shah,Burger King,King Burger,Burger,1,320.0,320.0,2026-03-09,15:15:00,30,Pune,4.3,Cash,Delivered
+224,1424,Pallavi More,Pizza Hut,Margherita Pizza,Pizza,2,310.0,620.0,2026-03-10,18:30:00,33,Nashik,4.6,UPI,Delivered
+225,1425,Yash Patil,KFC,Hot Wings,Fast Food,2,310.0,620.0,2026-03-11,19:45:00,37,Nagpur,4.4,Card,Delivered
+226,1426,Reshma Shah,Dominos,Cheese Burst Pizza,Pizza,1,535.0,535.0,2026-03-12,20:25:00,28,Thane,4.9,UPI,Delivered
+227,1427,Ajay More,Subway,Veggie Delight,Healthy,2,255.0,510.0,2026-03-13,13:20:00,24,Mumbai,4.3,Cash,Delivered
+228,1428,Vaibhavi Patil,Burger King,Veg Whopper,Burger,1,265.0,265.0,2026-03-14,15:50:00,27,Pune,4.2,Card,Delivered
+229,1429,Megha Shah,Pizza Hut,Loaded Veg Pizza,Pizza,2,425.0,850.0,2026-03-15,18:45:00,36,Nashik,4.8,UPI,Delivered
+230,1430,Omkar More,KFC,Chicken Strips,Fast Food,2,265.0,530.0,2026-03-16,19:35:00,35,Nagpur,4.3,Cash,Delivered
+231,1431,Nikita Patil,Dominos,Paneer Makhani Pizza,Pizza,1,440.0,440.0,2026-03-17,20:10:00,29,Thane,4.7,Card,Delivered
+232,1432,Rakesh Shah,McDonalds,McChicken,Burger,2,240.0,480.0,2026-03-18,16:25:00,22,Mumbai,4.5,UPI,Delivered
+233,1433,Kajal More,Subway,Cheese Sandwich,Healthy,2,260.0,520.0,2026-03-19,13:35:00,24,Pune,4.4,Cash,Delivered
+234,1434,Pratik Patil,Pizza Hut,Paneer Pizza,Pizza,1,360.0,360.0,2026-03-20,18:20:00,35,Mumbai,4.6,Card,Delivered
+235,1435,Rutuja Shah,KFC,Chicken Bucket,Fast Food,1,760.0,760.0,2026-03-21,20:20:00,42,Nashik,4.6,UPI,Delivered
+236,1436,Sanket More,Dominos,Deluxe Veggie Pizza,Pizza,1,475.0,475.0,2026-03-22,19:05:00,28,Nagpur,4.8,Cash,Delivered
+237,1437,Pooja Patil,Burger King,Crispy Veg Burger,Burger,2,210.0,420.0,2026-03-23,15:25:00,27,Thane,4.1,Card,Delivered
+238,1438,Tejas Shah,Subway,Paneer Sandwich,Healthy,2,265.0,530.0,2026-03-24,13:30:00,24,Mumbai,4.5,UPI,Delivered
+239,1439,Anjali More,Pizza Hut,Cheese Pizza,Pizza,2,345.0,690.0,2026-03-25,18:50:00,34,Pune,4.4747916666666665,Cash,Delivered
+240,1440,Manish Patil,KFC,Chicken Popcorn,Fast Food,3,240.0,720.0,2026-03-26,19:50:00,36,Nashik,4.4,Card,Delivered
+241,1441,Sneha Shah,Dominos,Farmhouse Pizza,Pizza,1,470.0,470.0,2026-03-27,20:15:00,29,Nagpur,4.6,UPI,Delivered
+242,1442,Abhishek More,McDonalds,McVeggie,Burger,3,150.0,450.0,2026-03-28,17:05:00,21,Thane,4.2,Cash,Delivered
+243,1443,Priya Patil,Subway,Veg Sandwich,Healthy,2,245.0,490.0,2026-03-29,13:10:00,23,Mumbai,4.3,Card,Delivered
+244,1444,Kiran Shah,Burger King,Whopper,Burger,1,300.0,300.0,2026-03-30,15:40:00,30,Pune,4.6,UPI,Delivered
+245,1445,Monika More,Pizza Hut,Veggie Paradise Pizza,Pizza,2,390.0,780.0,2026-03-31,18:40:00,35,Nashik,4.8,Cash,Delivered
+246,1446,Harshal Patil,KFC,Hot Crispy Chicken,Fast Food,2,340.0,680.0,2026-04-01,19:55:00,39,Nagpur,4.5,Card,Delivered
+247,1447,Deepali Shah,Dominos,Cheese n Corn Pizza,Pizza,1,390.0,390.0,2026-04-02,20:25:00,28,Thane,4.5,UPI,Delivered
+248,1448,Akash More,McDonalds,French Fries,Snacks,4,110.0,440.0,2026-04-03,17:15:00,20,Mumbai,4.1,Cash,Delivered
+249,1449,Rohit Patil,Subway,Paneer Tikka Sandwich,Healthy,2,275.0,550.0,2026-04-04,13:25:00,24,Pune,4.7,Card,Delivered
+250,1450,Neha Shah,Burger King,Cheese Burger,Burger,2,215.0,430.0,2026-04-05,15:35:00,28,Nashik,4.2,UPI,Delivered
+251,1451,Rahul More,Pizza Hut,Veg Supreme Pizza,Pizza,2,395.0,790.0,2026-04-06,18:20:00,35,Mumbai,4.7,UPI,Delivered
+252,1452,Sneha Patil,Dominos,Cheese Burst Pizza,Pizza,1,545.0,545.0,2026-04-07,19:10:00,28,Pune,4.8,Card,Delivered
+253,1453,Amit Shah,KFC,Chicken Bucket,Fast Food,1,775.0,775.0,2026-04-08,20:15:00,42,Nashik,4.5,Cash,Delivered
+254,1454,Pooja More,McDonalds,French Fries,Snacks,4,105.0,420.0,2026-04-09,17:25:00,21,Nagpur,4.1,UPI,Delivered
+255,1455,Rohan Patil,Subway,Paneer Sandwich,Healthy,2,260.0,520.0,2026-04-10,13:30:00,24,Thane,4.6,Card,Delivered
+256,1456,Kiran Shah,Burger King,Veg Burger,Burger,2,200.0,400.0,2026-04-11,15:20:00,28,Mumbai,4.0,Cash,Delivered
+257,1457,Neha More,Pizza Hut,Paneer Pizza,Pizza,1,350.0,350.0,2026-04-12,18:15:00,36,Pune,4.7,UPI,Delivered
+258,1458,Sagar Patil,KFC,Chicken Wings,Fast Food,2,305.0,610.0,2026-04-13,19:40:00,38,Nashik,4.4,Card,Delivered
+259,1459,Anjali Shah,Dominos,Peppy Paneer,Pizza,1,420.0,420.0,2026-04-14,20:00:00,29,Nagpur,4.6,UPI,Delivered
+260,1460,Tejas More,Subway,Veg Sandwich,Healthy,2,245.0,490.0,2026-04-15,13:15:00,23,Thane,4.4747916666666665,Cash,Delivered
+261,1461,Komal Patil,McDonalds,McVeggie,Burger,3,145.0,435.0,2026-04-16,16:20:00,21,Mumbai,4.2,UPI,Delivered
+262,1462,Vikas Shah,Burger King,Whopper,Burger,1,305.0,305.0,2026-04-17,18:10:00,30,Pune,4.5,Card,Delivered
+263,1463,Rutuja More,Pizza Hut,Cheese Pizza,Pizza,2,340.0,680.0,2026-04-18,19:20:00,34,Nashik,4.8,Cash,Delivered
+264,1464,Nilesh Patil,KFC,Chicken Popcorn,Fast Food,3,230.0,690.0,2026-04-19,20:10:00,36,Nagpur,4.3,UPI,Delivered
+265,1465,Priyanka Shah,Dominos,Mexican Green Wave,Pizza,1,460.0,460.0,2026-04-20,21:00:00,28,Mumbai,4.7,Card,Delivered
+266,1466,Harshal More,Subway,Paneer Tikka Sandwich,Healthy,2,280.0,560.0,2026-04-21,13:30:00,25,Thane,4.6,UPI,Delivered
+267,1467,Monika Patil,Burger King,Cheese Burger,Burger,2,215.0,430.0,2026-04-22,15:45:00,28,Mumbai,4.1,Cash,Delivered
+268,1468,Deepali Shah,Pizza Hut,Veg Feast Pizza,Pizza,2,390.0,780.0,2026-04-23,18:40:00,35,Pune,4.8,UPI,Delivered
+269,1469,Sachin More,KFC,Chicken Burger,Burger,2,275.0,550.0,2026-04-24,19:50:00,32,Nashik,4.4,Card,Delivered
+270,1470,Bhakti Patil,McDonalds,French Fries,Snacks,4,110.0,440.0,2026-04-25,17:00:00,20,Nagpur,4.0,Unknown,Delivered
+271,1471,Aniket Shah,Dominos,Veg Extravaganza,Pizza,1,510.0,510.0,2026-04-26,20:20:00,29,Thane,4.7,UPI,Delivered
+272,1472,Rohini More,Subway,Corn Sandwich,Healthy,2,240.0,480.0,2026-04-27,13:10:00,23,Mumbai,4.5,Card,Delivered
+273,1473,Gaurav Patil,Burger King,King Burger,Burger,1,325.0,325.0,2026-04-28,15:15:00,30,Pune,4.3,Cash,Delivered
+274,1474,Pallavi Shah,Pizza Hut,Margherita Pizza,Pizza,2,315.0,630.0,2026-04-29,18:30:00,33,Nashik,4.6,UPI,Delivered
+275,1475,Yash More,KFC,Hot Wings,Fast Food,2,315.0,630.0,2026-04-30,19:45:00,37,Nagpur,4.4,Card,Delivered
+276,1476,Reshma Patil,Dominos,Cheese Burst Pizza,Pizza,1,540.0,540.0,2026-05-01,20:25:00,28,Thane,4.9,UPI,Delivered
+277,1477,Ajay Shah,Subway,Veggie Delight,Healthy,2,260.0,520.0,2026-05-02,13:20:00,24,Mumbai,4.3,Cash,Delivered
+278,1478,Vaibhavi More,Burger King,Veg Whopper,Burger,1,270.0,270.0,2026-05-03,15:50:00,27,Pune,4.2,Card,Delivered
+279,1479,Megha Patil,Pizza Hut,Loaded Veg Pizza,Pizza,2,430.0,860.0,2026-05-04,18:45:00,36,Nashik,4.8,UPI,Delivered
+280,1480,Omkar Shah,KFC,Chicken Strips,Fast Food,2,270.0,540.0,2026-05-05,19:35:00,35,Nagpur,4.3,Cash,Delivered
+281,1481,Nikita More,Dominos,Paneer Makhani Pizza,Pizza,1,445.0,445.0,2026-05-06,20:10:00,29,Thane,4.7,Card,Delivered
+282,1482,Rakesh Patil,McDonalds,McChicken,Burger,2,245.0,490.0,2026-05-07,16:25:00,22,Mumbai,4.5,UPI,Delivered
+283,1483,Kajal Shah,Subway,Cheese Sandwich,Healthy,2,265.0,530.0,2026-05-08,13:35:00,24,Pune,4.4,Cash,Delivered
+284,1484,Pratik More,Pizza Hut,Paneer Pizza,Pizza,1,365.0,365.0,2026-05-09,18:20:00,35,Mumbai,4.6,Card,Delivered
+285,1485,Rutuja Patil,KFC,Chicken Bucket,Fast Food,1,765.0,765.0,2026-05-10,20:20:00,42,Nashik,4.6,UPI,Delivered
+286,1486,Sanket Shah,Dominos,Deluxe Veggie Pizza,Pizza,1,480.0,480.0,2026-05-11,19:05:00,28,Nagpur,4.8,Cash,Delivered
+287,1487,Pooja More,Burger King,Crispy Veg Burger,Burger,2,215.0,430.0,2026-05-12,15:25:00,27,Thane,4.1,Card,Delivered
+288,1488,Tejas Patil,Subway,Paneer Sandwich,Healthy,2,270.0,540.0,2026-05-13,13:30:00,24,Mumbai,4.5,UPI,Delivered
+289,1489,Anjali Shah,Pizza Hut,Cheese Pizza,Pizza,2,350.0,700.0,2026-05-14,18:50:00,34,Pune,4.4747916666666665,Cash,Delivered
+290,1490,Manish More,KFC,Chicken Popcorn,Fast Food,3,245.0,735.0,2026-05-15,19:50:00,36,Nashik,4.4,Card,Delivered
+291,1491,Sneha Patil,Dominos,Farmhouse Pizza,Pizza,1,475.0,475.0,2026-05-16,20:15:00,29,Nagpur,4.6,UPI,Delivered
+292,1492,Abhishek Shah,McDonalds,McVeggie,Burger,3,155.0,465.0,2026-05-17,17:05:00,21,Thane,4.2,Cash,Delivered
+293,1493,Priya More,Subway,Veg Sandwich,Healthy,2,250.0,500.0,2026-05-18,13:10:00,23,Mumbai,4.3,Card,Delivered
+294,1494,Kiran Patil,Burger King,Whopper,Burger,1,305.0,305.0,2026-05-19,15:40:00,30,Pune,4.6,UPI,Delivered
+295,1495,Monika Shah,Pizza Hut,Veggie Paradise Pizza,Pizza,2,395.0,790.0,2026-05-20,18:40:00,35,Nashik,4.8,Cash,Delivered
+296,1496,Harshal More,KFC,Hot Crispy Chicken,Fast Food,2,345.0,690.0,2026-05-21,19:55:00,39,Nagpur,4.5,Card,Delivered
+297,1497,Deepali Patil,Dominos,Cheese n Corn Pizza,Pizza,1,395.0,395.0,2026-05-22,20:25:00,28,Thane,4.5,UPI,Delivered
+298,1498,Akash Shah,McDonalds,French Fries,Snacks,4,115.0,460.0,2026-05-23,17:15:00,20,Mumbai,4.1,Cash,Delivered
+299,1499,Rohit More,Subway,Paneer Tikka Sandwich,Healthy,2,280.0,560.0,2026-05-24,13:25:00,24,Pune,4.7,Card,Delivered
+300,1500,Neha Patil,Burger King,Cheese Burger,Burger,2,220.0,440.0,2026-05-25,15:35:00,28,Nashik,4.2,UPI,Delivered
+301,1501,Rahul Shah,Pizza Hut,Veg Supreme Pizza,Pizza,2,400.0,800.0,2026-05-26,18:20:00,35,Mumbai,4.7,UPI,Delivered
+302,1502,Sneha More,Dominos,Cheese Burst Pizza,Pizza,1,550.0,550.0,2026-05-27,19:10:00,28,Pune,4.8,Card,Delivered
+303,1503,Amit Patil,KFC,Chicken Bucket,Fast Food,1,780.0,780.0,2026-05-28,20:15:00,42,Nashik,4.5,Cash,Delivered
+304,1504,Pooja Shah,McDonalds,French Fries,Snacks,4,120.0,480.0,2026-05-29,17:25:00,21,Nagpur,4.1,UPI,Delivered
+305,1505,Rohan More,Subway,Paneer Sandwich,Healthy,2,265.0,530.0,2026-05-30,13:30:00,24,Thane,4.6,Card,Delivered
+306,1506,Kiran Patil,Burger King,Veg Burger,Burger,2,205.0,410.0,2026-05-31,15:20:00,28,Mumbai,4.0,Cash,Delivered
+307,1507,Neha Shah,Pizza Hut,Paneer Pizza,Pizza,1,355.0,355.0,2026-06-01,18:15:00,36,Pune,4.7,UPI,Delivered
+308,1508,Sagar More,KFC,Chicken Wings,Fast Food,2,310.0,620.0,2026-06-02,19:40:00,38,Nashik,4.4,Card,Delivered
+309,1509,Anjali Patil,Dominos,Peppy Paneer,Pizza,1,425.0,425.0,2026-06-03,20:00:00,29,Nagpur,4.6,UPI,Delivered
+310,1510,Tejas Shah,Subway,Veg Sandwich,Healthy,2,250.0,500.0,2026-06-04,13:15:00,23,Thane,4.4747916666666665,Cash,Delivered
+311,1511,Komal More,McDonalds,McVeggie,Burger,3,160.0,480.0,2026-06-05,16:20:00,21,Mumbai,4.2,UPI,Delivered
+312,1512,Vikas Patil,Burger King,Whopper,Burger,1,310.0,310.0,2026-06-06,18:10:00,30,Pune,4.5,Card,Delivered
+313,1513,Rutuja Shah,Pizza Hut,Cheese Pizza,Pizza,2,345.0,690.0,2026-06-07,19:20:00,34,Nashik,4.8,Cash,Delivered
+314,1514,Nilesh More,KFC,Chicken Popcorn,Fast Food,3,235.0,705.0,2026-06-08,20:10:00,36,Nagpur,4.3,UPI,Delivered
+315,1515,Priyanka Patil,Dominos,Mexican Green Wave,Pizza,1,465.0,465.0,2026-06-09,21:00:00,28,Mumbai,4.7,Card,Delivered
+316,1516,Harshal Shah,Subway,Paneer Tikka Sandwich,Healthy,2,285.0,570.0,2026-06-10,13:30:00,25,Thane,4.6,UPI,Delivered
+317,1517,Monika More,Burger King,Cheese Burger,Burger,2,220.0,440.0,2026-06-11,15:45:00,28,Mumbai,4.1,Cash,Delivered
+318,1518,Deepali Patil,Pizza Hut,Veg Feast Pizza,Pizza,2,395.0,790.0,2026-06-12,18:40:00,35,Pune,4.8,UPI,Delivered
+319,1519,Sachin Shah,KFC,Chicken Burger,Burger,2,280.0,560.0,2026-06-13,19:50:00,32,Nashik,4.4,Card,Delivered
+320,1520,Bhakti More,McDonalds,French Fries,Snacks,4,115.0,460.0,2026-06-14,17:00:00,20,Nagpur,4.0,Unknown,Delivered
+321,1521,Aniket Patil,Dominos,Veg Extravaganza,Pizza,1,515.0,515.0,2026-06-15,20:20:00,29,Thane,4.7,UPI,Delivered
+322,1522,Rohini Shah,Subway,Corn Sandwich,Healthy,2,245.0,490.0,2026-06-16,13:10:00,23,Mumbai,4.5,Card,Delivered
+323,1523,Gaurav More,Burger King,King Burger,Burger,1,330.0,330.0,2026-06-17,15:15:00,30,Pune,4.3,Cash,Delivered
+324,1524,Pallavi Patil,Pizza Hut,Margherita Pizza,Pizza,2,320.0,640.0,2026-06-18,18:30:00,33,Nashik,4.6,UPI,Delivered
+325,1525,Yash Shah,KFC,Hot Wings,Fast Food,2,320.0,640.0,2026-06-19,19:45:00,37,Nagpur,4.4,Card,Delivered
+326,1526,Reshma More,Dominos,Cheese Burst Pizza,Pizza,1,545.0,545.0,2026-06-20,20:25:00,28,Thane,4.9,UPI,Delivered
+327,1527,Ajay Patil,Subway,Veggie Delight,Healthy,2,265.0,530.0,2026-06-21,13:20:00,24,Mumbai,4.3,Cash,Delivered
+328,1528,Vaibhavi Shah,Burger King,Veg Whopper,Burger,1,275.0,275.0,2026-06-22,15:50:00,27,Pune,4.2,Card,Delivered
+329,1529,Megha More,Pizza Hut,Loaded Veg Pizza,Pizza,2,435.0,870.0,2026-06-23,18:45:00,36,Nashik,4.8,UPI,Delivered
+330,1530,Omkar Patil,KFC,Chicken Strips,Fast Food,2,275.0,550.0,2026-06-24,19:35:00,35,Nagpur,4.3,Cash,Delivered
+331,1531,Nikita Shah,Dominos,Paneer Makhani Pizza,Pizza,1,450.0,450.0,2026-06-25,20:10:00,29,Thane,4.7,Card,Delivered
+332,1532,Rakesh More,McDonalds,McChicken,Burger,2,250.0,500.0,2026-06-26,16:25:00,22,Mumbai,4.5,UPI,Delivered
+333,1533,Kajal Patil,Subway,Cheese Sandwich,Healthy,2,270.0,540.0,2026-06-27,13:35:00,24,Pune,4.4,Cash,Delivered
+334,1534,Pratik Shah,Pizza Hut,Paneer Pizza,Pizza,1,370.0,370.0,2026-06-28,18:20:00,35,Mumbai,4.6,Card,Delivered
+335,1535,Rutuja More,KFC,Chicken Bucket,Fast Food,1,770.0,770.0,2026-06-29,20:20:00,42,Nashik,4.6,UPI,Delivered
+336,1536,Sanket Patil,Dominos,Deluxe Veggie Pizza,Pizza,1,485.0,485.0,2026-06-30,19:05:00,28,Nagpur,4.8,Cash,Delivered
+337,1537,Pooja Shah,Burger King,Crispy Veg Burger,Burger,2,220.0,440.0,2026-07-01,15:25:00,27,Thane,4.1,Card,Delivered
+338,1538,Tejas More,Subway,Paneer Sandwich,Healthy,2,275.0,550.0,2026-07-02,13:30:00,24,Mumbai,4.5,UPI,Delivered
+339,1539,Anjali Patil,Pizza Hut,Cheese Pizza,Pizza,2,355.0,710.0,2026-07-03,18:50:00,34,Pune,4.4747916666666665,Cash,Delivered
+340,1540,Manish Shah,KFC,Chicken Popcorn,Fast Food,3,250.0,750.0,2026-07-04,19:50:00,36,Nashik,4.4,Card,Delivered
+341,1541,Sneha More,Dominos,Farmhouse Pizza,Pizza,1,480.0,480.0,2026-07-05,20:15:00,29,Nagpur,4.6,UPI,Delivered
+342,1542,Abhishek Patil,McDonalds,McVeggie,Burger,3,160.0,480.0,2026-07-06,17:05:00,21,Thane,4.2,Cash,Delivered
+343,1543,Priya Shah,Subway,Veg Sandwich,Healthy,2,255.0,510.0,2026-07-07,13:10:00,23,Mumbai,4.3,Card,Delivered
+344,1544,Kiran More,Burger King,Whopper,Burger,1,310.0,310.0,2026-07-08,15:40:00,30,Pune,4.6,UPI,Delivered
+345,1545,Monika Patil,Pizza Hut,Veggie Paradise Pizza,Pizza,2,400.0,800.0,2026-07-09,18:40:00,35,Nashik,4.8,Cash,Delivered
+346,1546,Harshal Shah,KFC,Hot Crispy Chicken,Fast Food,2,350.0,700.0,2026-07-10,19:55:00,39,Nagpur,4.5,Card,Delivered
+347,1547,Deepali More,Dominos,Cheese n Corn Pizza,Pizza,1,400.0,400.0,2026-07-11,20:25:00,28,Thane,4.5,UPI,Delivered
+348,1548,Akash Patil,McDonalds,French Fries,Snacks,4,120.0,480.0,2026-07-12,17:15:00,20,Mumbai,4.1,Cash,Delivered
+349,1549,Rohit Shah,Subway,Paneer Tikka Sandwich,Healthy,2,285.0,570.0,2026-07-13,13:25:00,24,Pune,4.7,Card,Delivered
+350,1550,Neha More,Burger King,Cheese Burger,Burger,2,225.0,450.0,2026-07-14,15:35:00,28,Nashik,4.2,UPI,Delivered
+351,1551,Rahul Patil,Pizza Hut,Veg Supreme Pizza,Pizza,2,405.0,810.0,2026-07-15,18:20:00,35,Mumbai,4.7,UPI,Delivered
+352,1552,Sneha Shah,Dominos,Cheese Burst Pizza,Pizza,1,555.0,555.0,2026-07-16,19:10:00,28,Pune,4.8,Card,Delivered
+353,1553,Amit More,KFC,Chicken Bucket,Fast Food,1,785.0,785.0,2026-07-17,20:15:00,42,Nashik,4.5,Cash,Delivered
+354,1554,Pooja Patil,McDonalds,French Fries,Snacks,4,125.0,500.0,2026-07-18,17:25:00,21,Nagpur,4.1,UPI,Delivered
+355,1555,Rohan Shah,Subway,Paneer Sandwich,Healthy,2,270.0,540.0,2026-07-19,13:30:00,24,Thane,4.6,Card,Delivered
+356,1556,Kiran More,Burger King,Veg Burger,Burger,2,210.0,420.0,2026-07-20,15:20:00,28,Mumbai,4.0,Cash,Delivered
+357,1557,Neha Patil,Pizza Hut,Paneer Pizza,Pizza,1,360.0,360.0,2026-07-21,18:15:00,36,Pune,4.7,UPI,Delivered
+358,1558,Sagar Shah,KFC,Chicken Wings,Fast Food,2,315.0,630.0,2026-07-22,19:40:00,38,Nashik,4.4,Card,Delivered
+359,1559,Anjali More,Dominos,Peppy Paneer,Pizza,1,430.0,430.0,2026-07-23,20:00:00,29,Nagpur,4.6,UPI,Delivered
+360,1560,Tejas Patil,Subway,Veg Sandwich,Healthy,2,255.0,510.0,2026-07-24,13:15:00,23,Thane,4.4747916666666665,Cash,Delivered
+361,1561,Komal Shah,McDonalds,McVeggie,Burger,3,165.0,495.0,2026-07-25,16:20:00,21,Mumbai,4.2,UPI,Delivered
+362,1562,Vikas More,Burger King,Whopper,Burger,1,315.0,315.0,2026-07-26,18:10:00,30,Pune,4.5,Card,Delivered
+363,1563,Rutuja Patil,Pizza Hut,Cheese Pizza,Pizza,2,350.0,700.0,2026-07-27,19:20:00,34,Nashik,4.8,Cash,Delivered
+364,1564,Nilesh Shah,KFC,Chicken Popcorn,Fast Food,3,240.0,720.0,2026-07-28,20:10:00,36,Nagpur,4.3,UPI,Delivered
+365,1565,Priyanka More,Dominos,Mexican Green Wave,Pizza,1,470.0,470.0,2026-07-29,21:00:00,28,Mumbai,4.7,Card,Delivered
+366,1566,Harshal Patil,Subway,Paneer Tikka Sandwich,Healthy,2,290.0,580.0,2026-07-30,13:30:00,25,Thane,4.6,UPI,Delivered
+367,1567,Monika Shah,Burger King,Cheese Burger,Burger,2,225.0,450.0,2026-07-31,15:45:00,28,Mumbai,4.1,Cash,Delivered
+368,1568,Deepali More,Pizza Hut,Veg Feast Pizza,Pizza,2,400.0,800.0,2026-08-01,18:40:00,35,Pune,4.8,UPI,Delivered
+369,1569,Sachin Patil,KFC,Chicken Burger,Burger,2,285.0,570.0,2026-08-02,19:50:00,32,Nashik,4.4,Card,Delivered
+370,1570,Bhakti Shah,McDonalds,French Fries,Snacks,4,120.0,480.0,2026-08-03,17:00:00,20,Nagpur,4.0,Unknown,Delivered
+371,1571,Aniket More,Dominos,Veg Extravaganza,Pizza,1,520.0,520.0,2026-08-04,20:20:00,29,Thane,4.7,UPI,Delivered
+372,1572,Rohini Patil,Subway,Corn Sandwich,Healthy,2,250.0,500.0,2026-08-05,13:10:00,23,Mumbai,4.5,Card,Delivered
+373,1573,Gaurav Shah,Burger King,King Burger,Burger,1,335.0,335.0,2026-08-06,15:15:00,30,Pune,4.3,Cash,Delivered
+374,1574,Pallavi More,Pizza Hut,Margherita Pizza,Pizza,2,325.0,650.0,2026-08-07,18:30:00,33,Nashik,4.6,UPI,Delivered
+375,1575,Yash Patil,KFC,Hot Wings,Fast Food,2,325.0,650.0,2026-08-08,19:45:00,37,Nagpur,4.4,Card,Delivered
+376,1576,Reshma Shah,Dominos,Cheese Burst Pizza,Pizza,1,550.0,550.0,2026-08-09,20:25:00,28,Thane,4.9,UPI,Delivered
+377,1577,Ajay More,Subway,Veggie Delight,Healthy,2,270.0,540.0,2026-08-10,13:20:00,24,Mumbai,4.3,Cash,Delivered
+378,1578,Vaibhavi Patil,Burger King,Veg Whopper,Burger,1,280.0,280.0,2026-08-11,15:50:00,27,Pune,4.2,Card,Delivered
+379,1579,Megha Shah,Pizza Hut,Loaded Veg Pizza,Pizza,2,440.0,880.0,2026-08-12,18:45:00,36,Nashik,4.8,UPI,Delivered
+380,1580,Omkar More,KFC,Chicken Strips,Fast Food,2,280.0,560.0,2026-08-13,19:35:00,35,Nagpur,4.3,Cash,Delivered
+381,1581,Nikita Patil,Dominos,Paneer Makhani Pizza,Pizza,1,455.0,455.0,2026-08-14,20:10:00,29,Thane,4.7,Card,Delivered
+382,1582,Rakesh Shah,McDonalds,McChicken,Burger,2,255.0,510.0,2026-08-15,16:25:00,22,Mumbai,4.5,UPI,Delivered
+383,1583,Kajal More,Subway,Cheese Sandwich,Healthy,2,275.0,550.0,2026-08-16,13:35:00,24,Pune,4.4,Cash,Delivered
+384,1584,Pratik Patil,Pizza Hut,Paneer Pizza,Pizza,1,375.0,375.0,2026-08-17,18:20:00,35,Mumbai,4.6,Card,Delivered
+385,1585,Rutuja Shah,KFC,Chicken Bucket,Fast Food,1,775.0,775.0,2026-08-18,20:20:00,42,Nashik,4.6,UPI,Delivered
+386,1586,Sanket More,Dominos,Deluxe Veggie Pizza,Pizza,1,490.0,490.0,2026-08-19,19:05:00,28,Nagpur,4.8,Cash,Delivered
+387,1587,Pooja Patil,Burger King,Crispy Veg Burger,Burger,2,225.0,450.0,2026-08-20,15:25:00,27,Thane,4.1,Card,Delivered
+388,1588,Tejas Shah,Subway,Paneer Sandwich,Healthy,2,280.0,560.0,2026-08-21,13:30:00,24,Mumbai,4.5,UPI,Delivered
+389,1589,Anjali More,Pizza Hut,Cheese Pizza,Pizza,2,360.0,720.0,2026-08-22,18:50:00,34,Pune,4.4747916666666665,Cash,Delivered
+390,1590,Manish Patil,KFC,Chicken Popcorn,Fast Food,3,255.0,765.0,2026-08-23,19:50:00,36,Nashik,4.4,Card,Delivered
+391,1591,Sneha Shah,Dominos,Farmhouse Pizza,Pizza,1,485.0,485.0,2026-08-24,20:15:00,29,Nagpur,4.6,UPI,Delivered
+392,1592,Abhishek More,McDonalds,McVeggie,Burger,3,165.0,495.0,2026-08-25,17:05:00,21,Thane,4.2,Cash,Delivered
+393,1593,Priya Patil,Subway,Veg Sandwich,Healthy,2,260.0,520.0,2026-08-26,13:10:00,23,Mumbai,4.3,Card,Delivered
+394,1594,Kiran Shah,Burger King,Whopper,Burger,1,315.0,315.0,2026-08-27,15:40:00,30,Pune,4.6,UPI,Delivered
+395,1595,Monika More,Pizza Hut,Veggie Paradise Pizza,Pizza,2,405.0,810.0,2026-08-28,18:40:00,35,Nashik,4.8,Cash,Delivered
+396,1596,Harshal Patil,KFC,Hot Crispy Chicken,Fast Food,2,355.0,710.0,2026-08-29,19:55:00,39,Nagpur,4.5,Card,Delivered
+397,1597,Deepali Shah,Dominos,Cheese n Corn Pizza,Pizza,1,405.0,405.0,2026-08-30,20:25:00,28,Thane,4.5,UPI,Delivered
+398,1598,Akash More,McDonalds,French Fries,Snacks,4,125.0,500.0,2026-08-31,17:15:00,20,Mumbai,4.1,Cash,Delivered
+399,1599,Rohit Patil,Subway,Paneer Tikka Sandwich,Healthy,2,290.0,580.0,2026-09-01,13:25:00,24,Pune,4.7,Card,Delivered
+400,1600,Neha Shah,Burger King,Cheese Burger,Burger,2,230.0,460.0,2026-09-02,15:35:00,28,Nashik,4.2,UPI,Delivered
+401,1601,Rahul More,Pizza Hut,Veg Supreme Pizza,Pizza,2,410.0,820.0,2026-09-03,18:20:00,35,Mumbai,4.7,UPI,Delivered
+402,1602,Sneha Patil,Dominos,Cheese Burst Pizza,Pizza,1,560.0,560.0,2026-09-04,19:10:00,28,Pune,4.8,Card,Delivered
+403,1603,Amit Shah,KFC,Chicken Bucket,Fast Food,1,790.0,790.0,2026-09-05,20:15:00,42,Nashik,4.5,Cash,Delivered
+404,1604,Pooja More,McDonalds,French Fries,Snacks,4,130.0,520.0,2026-09-06,17:25:00,21,Nagpur,4.1,UPI,Delivered
+405,1605,Rohan Patil,Subway,Paneer Sandwich,Healthy,2,275.0,550.0,2026-09-07,13:30:00,24,Thane,4.6,Card,Delivered
+406,1606,Kiran Shah,Burger King,Veg Burger,Burger,2,215.0,430.0,2026-09-08,15:20:00,28,Mumbai,4.0,Cash,Delivered
+407,1607,Neha More,Pizza Hut,Paneer Pizza,Pizza,1,365.0,365.0,2026-09-09,18:15:00,36,Pune,4.7,UPI,Delivered
+408,1608,Sagar Patil,KFC,Chicken Wings,Fast Food,2,320.0,640.0,2026-09-10,19:40:00,38,Nashik,4.4,Card,Delivered
+409,1609,Anjali Shah,Dominos,Peppy Paneer,Pizza,1,435.0,435.0,2026-09-11,20:00:00,29,Nagpur,4.6,UPI,Delivered
+410,1610,Tejas More,Subway,Veg Sandwich,Healthy,2,260.0,520.0,2026-09-12,13:15:00,23,Thane,4.4747916666666665,Cash,Delivered
+411,1611,Komal Patil,McDonalds,McVeggie,Burger,3,170.0,510.0,2026-09-13,16:20:00,21,Mumbai,4.2,UPI,Delivered
+412,1612,Vikas Shah,Burger King,Whopper,Burger,1,320.0,320.0,2026-09-14,18:10:00,30,Pune,4.5,Card,Delivered
+413,1613,Rutuja More,Pizza Hut,Cheese Pizza,Pizza,2,355.0,710.0,2026-09-15,19:20:00,34,Nashik,4.8,Cash,Delivered
+414,1614,Nilesh Patil,KFC,Chicken Popcorn,Fast Food,3,245.0,735.0,2026-09-16,20:10:00,36,Nagpur,4.3,UPI,Delivered
+415,1615,Priyanka Shah,Dominos,Mexican Green Wave,Pizza,1,475.0,475.0,2026-09-17,21:00:00,28,Mumbai,4.7,Card,Delivered
+416,1616,Harshal More,Subway,Paneer Tikka Sandwich,Healthy,2,295.0,590.0,2026-09-18,13:30:00,25,Thane,4.6,UPI,Delivered
+417,1617,Monika Patil,Burger King,Cheese Burger,Burger,2,230.0,460.0,2026-09-19,15:45:00,28,Mumbai,4.1,Cash,Delivered
+418,1618,Deepali Shah,Pizza Hut,Veg Feast Pizza,Pizza,2,405.0,810.0,2026-09-20,18:40:00,35,Pune,4.8,UPI,Delivered
+419,1619,Sachin More,KFC,Chicken Burger,Burger,2,290.0,580.0,2026-09-21,19:50:00,32,Nashik,4.4,Card,Delivered
+420,1620,Bhakti Patil,McDonalds,French Fries,Snacks,4,125.0,500.0,2026-09-22,17:00:00,20,Nagpur,4.0,Unknown,Delivered
+421,1621,Aniket Shah,Dominos,Veg Extravaganza,Pizza,1,525.0,525.0,2026-09-23,20:20:00,29,Thane,4.7,UPI,Delivered
+422,1622,Rohini More,Subway,Corn Sandwich,Healthy,2,255.0,510.0,2026-09-24,13:10:00,23,Mumbai,4.5,Card,Delivered
+423,1623,Gaurav Patil,Burger King,King Burger,Burger,1,340.0,340.0,2026-09-25,15:15:00,30,Pune,4.3,Cash,Delivered
+424,1624,Pallavi Shah,Pizza Hut,Margherita Pizza,Pizza,2,330.0,660.0,2026-09-26,18:30:00,33,Nashik,4.6,UPI,Delivered
+425,1625,Yash More,KFC,Hot Wings,Fast Food,2,330.0,660.0,2026-09-27,19:45:00,37,Nagpur,4.4,Card,Delivered
+426,1626,Reshma Patil,Dominos,Cheese Burst Pizza,Pizza,1,555.0,555.0,2026-09-28,20:25:00,28,Thane,4.9,UPI,Delivered
+427,1627,Ajay Shah,Subway,Veggie Delight,Healthy,2,275.0,550.0,2026-09-29,13:20:00,24,Mumbai,4.3,Cash,Delivered
+428,1628,Vaibhavi More,Burger King,Veg Whopper,Burger,1,285.0,285.0,2026-09-30,15:50:00,27,Pune,4.2,Card,Delivered
+429,1629,Megha Patil,Pizza Hut,Loaded Veg Pizza,Pizza,2,445.0,890.0,2026-10-01,18:45:00,36,Nashik,4.8,UPI,Delivered
+430,1630,Omkar Shah,KFC,Chicken Strips,Fast Food,2,285.0,570.0,2026-10-02,19:35:00,35,Nagpur,4.3,Cash,Delivered
+431,1631,Nikita More,Dominos,Paneer Makhani Pizza,Pizza,1,460.0,460.0,2026-10-03,20:10:00,29,Thane,4.7,Card,Delivered
+432,1632,Rakesh Patil,McDonalds,McChicken,Burger,2,260.0,520.0,2026-10-04,16:25:00,22,Mumbai,4.5,UPI,Delivered
+433,1633,Kajal Shah,Subway,Cheese Sandwich,Healthy,2,280.0,560.0,2026-10-05,13:35:00,24,Pune,4.4,Cash,Delivered
+434,1634,Pratik More,Pizza Hut,Paneer Pizza,Pizza,1,380.0,380.0,2026-10-06,18:20:00,35,Mumbai,4.6,Card,Delivered
+435,1635,Rutuja Patil,KFC,Chicken Bucket,Fast Food,1,780.0,780.0,2026-10-07,20:20:00,42,Nashik,4.6,UPI,Delivered
+436,1636,Sanket Shah,Dominos,Deluxe Veggie Pizza,Pizza,1,495.0,495.0,2026-10-08,19:05:00,28,Nagpur,4.8,Cash,Delivered
+437,1637,Pooja More,Burger King,Crispy Veg Burger,Burger,2,230.0,460.0,2026-10-09,15:25:00,27,Thane,4.1,Card,Delivered
+438,1638,Tejas Patil,Subway,Paneer Sandwich,Healthy,2,285.0,570.0,2026-10-10,13:30:00,24,Mumbai,4.5,UPI,Delivered
+439,1639,Anjali Shah,Pizza Hut,Cheese Pizza,Pizza,2,365.0,730.0,2026-10-11,18:50:00,34,Pune,4.4747916666666665,Cash,Delivered
+440,1640,Manish More,KFC,Chicken Popcorn,Fast Food,3,260.0,780.0,2026-10-12,19:50:00,36,Nashik,4.4,Card,Delivered
+441,1641,Sneha Patil,Dominos,Farmhouse Pizza,Pizza,1,490.0,490.0,2026-10-13,20:15:00,29,Nagpur,4.6,UPI,Delivered
+442,1642,Abhishek Shah,McDonalds,McVeggie,Burger,3,170.0,510.0,2026-10-14,17:05:00,21,Thane,4.2,Cash,Delivered
+443,1643,Priya More,Subway,Veg Sandwich,Healthy,2,265.0,530.0,2026-10-15,13:10:00,23,Mumbai,4.3,Card,Delivered
+444,1644,Kiran Patil,Burger King,Whopper,Burger,1,320.0,320.0,2026-10-16,15:40:00,30,Pune,4.6,UPI,Delivered
+445,1645,Monika Shah,Pizza Hut,Veggie Paradise Pizza,Pizza,2,410.0,820.0,2026-10-17,18:40:00,35,Nashik,4.8,Cash,Delivered
+446,1646,Harshal More,KFC,Hot Crispy Chicken,Fast Food,2,360.0,720.0,2026-10-18,19:55:00,39,Nagpur,4.5,Card,Delivered
+447,1647,Deepali Patil,Dominos,Cheese n Corn Pizza,Pizza,1,410.0,410.0,2026-10-19,20:25:00,28,Thane,4.5,UPI,Delivered
+448,1648,Akash Shah,McDonalds,French Fries,Snacks,4,130.0,520.0,2026-10-20,17:15:00,20,Mumbai,4.1,Cash,Delivered
+449,1649,Rohit More,Subway,Paneer Tikka Sandwich,Healthy,2,295.0,590.0,2026-10-21,13:25:00,24,Pune,4.7,Card,Delivered
+450,1650,Neha Patil,Burger King,Cheese Burger,Burger,2,235.0,470.0,2026-10-22,15:35:00,28,Nashik,4.2,UPI,Delivered
+451,1651,Rahul Shah,Pizza Hut,Veg Supreme Pizza,Pizza,2,415.0,830.0,2026-10-23,18:20:00,35,Mumbai,4.7,UPI,Delivered
+452,1652,Sneha More,Dominos,Cheese Burst Pizza,Pizza,1,565.0,565.0,2026-10-24,19:10:00,28,Pune,4.8,Card,Delivered
+453,1653,Amit Patil,KFC,Chicken Bucket,Fast Food,1,795.0,795.0,2026-10-25,20:15:00,42,Nashik,4.5,Cash,Delivered
+454,1654,Pooja Shah,McDonalds,French Fries,Snacks,4,135.0,540.0,2026-10-26,17:25:00,21,Nagpur,4.1,UPI,Delivered
+455,1655,Rohan More,Subway,Paneer Sandwich,Healthy,2,280.0,560.0,2026-10-27,13:30:00,24,Thane,4.6,Card,Delivered
+456,1656,Kiran Patil,Burger King,Veg Burger,Burger,2,220.0,440.0,2026-10-28,15:20:00,28,Mumbai,4.0,Cash,Delivered
+457,1657,Neha Shah,Pizza Hut,Paneer Pizza,Pizza,1,370.0,370.0,2026-10-29,18:15:00,36,Pune,4.7,UPI,Delivered
+458,1658,Sagar More,KFC,Chicken Wings,Fast Food,2,325.0,650.0,2026-10-30,19:40:00,38,Nashik,4.4,Card,Delivered
+459,1659,Anjali Patil,Dominos,Peppy Paneer,Pizza,1,440.0,440.0,2026-10-31,20:00:00,29,Nagpur,4.6,UPI,Delivered
+460,1660,Tejas Shah,Subway,Veg Sandwich,Healthy,2,265.0,530.0,2026-11-01,13:15:00,23,Thane,4.4747916666666665,Cash,Delivered
+461,1661,Komal More,McDonalds,McVeggie,Burger,3,175.0,525.0,2026-11-02,16:20:00,21,Mumbai,4.2,UPI,Delivered
+462,1662,Vikas Patil,Burger King,Whopper,Burger,1,325.0,325.0,2026-11-03,18:10:00,30,Pune,4.5,Card,Delivered
+463,1663,Rutuja Shah,Pizza Hut,Cheese Pizza,Pizza,2,360.0,720.0,2026-11-04,19:20:00,34,Nashik,4.8,Cash,Delivered
+464,1664,Nilesh More,KFC,Chicken Popcorn,Fast Food,3,250.0,750.0,2026-11-05,20:10:00,36,Nagpur,4.3,UPI,Delivered
+465,1665,Priyanka Patil,Dominos,Mexican Green Wave,Pizza,1,480.0,480.0,2026-11-06,21:00:00,28,Mumbai,4.7,Card,Delivered
+466,1666,Harshal Shah,Subway,Paneer Tikka Sandwich,Healthy,2,300.0,600.0,2026-11-07,13:30:00,25,Thane,4.6,UPI,Delivered
+467,1667,Monika More,Burger King,Cheese Burger,Burger,2,235.0,470.0,2026-11-08,15:45:00,28,Mumbai,4.1,Cash,Delivered
+468,1668,Deepali Patil,Pizza Hut,Veg Feast Pizza,Pizza,2,410.0,820.0,2026-11-09,18:40:00,35,Pune,4.8,UPI,Delivered
+469,1669,Sachin Shah,KFC,Chicken Burger,Burger,2,295.0,590.0,2026-11-10,19:50:00,32,Nashik,4.4,Card,Delivered
+470,1670,Bhakti More,McDonalds,French Fries,Snacks,4,130.0,520.0,2026-11-11,17:00:00,20,Nagpur,4.0,Unknown,Delivered
+471,1671,Aniket Patil,Dominos,Veg Extravaganza,Pizza,1,530.0,530.0,2026-11-12,20:20:00,29,Thane,4.7,UPI,Delivered
+472,1672,Rohini Shah,Subway,Corn Sandwich,Healthy,2,260.0,520.0,2026-11-13,13:10:00,23,Mumbai,4.5,Card,Delivered
+473,1673,Gaurav More,Burger King,King Burger,Burger,1,345.0,345.0,2026-11-14,15:15:00,30,Pune,4.3,Cash,Delivered
+474,1674,Pallavi Patil,Pizza Hut,Margherita Pizza,Pizza,2,335.0,670.0,2026-11-15,18:30:00,33,Nashik,4.6,UPI,Delivered
+475,1675,Yash Shah,KFC,Hot Wings,Fast Food,2,335.0,670.0,2026-11-16,19:45:00,37,Nagpur,4.4,Card,Delivered
+476,1676,Reshma More,Dominos,Cheese Burst Pizza,Pizza,1,560.0,560.0,2026-11-17,20:25:00,28,Thane,4.9,UPI,Delivered
+477,1677,Ajay Patil,Subway,Veggie Delight,Healthy,2,280.0,560.0,2026-11-18,13:20:00,24,Mumbai,4.3,Cash,Delivered
+478,1678,Vaibhavi Shah,Burger King,Veg Whopper,Burger,1,290.0,290.0,2026-11-19,15:50:00,27,Pune,4.2,Card,Delivered
+479,1679,Megha More,Pizza Hut,Loaded Veg Pizza,Pizza,2,450.0,900.0,2026-11-20,18:45:00,36,Nashik,4.8,UPI,Delivered
+480,1680,Omkar Patil,KFC,Chicken Strips,Fast Food,2,290.0,580.0,2026-11-21,19:35:00,35,Nagpur,4.3,Cash,Delivered
+481,1681,Nikita Shah,Dominos,Paneer Makhani Pizza,Pizza,1,465.0,465.0,2026-11-22,20:10:00,29,Thane,4.7,Card,Delivered
+482,1682,Rakesh More,McDonalds,McChicken,Burger,2,265.0,530.0,2026-11-23,16:25:00,22,Mumbai,4.5,UPI,Delivered
+483,1683,Kajal Patil,Subway,Cheese Sandwich,Healthy,2,285.0,570.0,2026-11-24,13:35:00,24,Pune,4.4,Cash,Delivered
+484,1684,Pratik Shah,Pizza Hut,Paneer Pizza,Pizza,1,385.0,385.0,2026-11-25,18:20:00,35,Mumbai,4.6,Card,Delivered
+485,1685,Rutuja More,KFC,Chicken Bucket,Fast Food,1,785.0,785.0,2026-11-26,20:20:00,42,Nashik,4.6,UPI,Delivered
+486,1686,Sanket Patil,Dominos,Deluxe Veggie Pizza,Pizza,1,500.0,500.0,2026-11-27,19:05:00,28,Nagpur,4.8,Cash,Delivered
+487,1687,Pooja Shah,Burger King,Crispy Veg Burger,Burger,2,235.0,470.0,2026-11-28,15:25:00,27,Thane,4.1,Card,Delivered
+488,1688,Tejas More,Subway,Paneer Sandwich,Healthy,2,290.0,580.0,2026-11-29,13:30:00,24,Mumbai,4.5,UPI,Delivered
+489,1689,Anjali Patil,Pizza Hut,Cheese Pizza,Pizza,2,370.0,740.0,2026-11-30,18:50:00,34,Pune,4.4747916666666665,Cash,Delivered
+490,1690,Manish Shah,KFC,Chicken Popcorn,Fast Food,3,265.0,795.0,2026-12-01,19:50:00,36,Nashik,4.4,Card,Delivered
+491,1691,Sneha More,Dominos,Farmhouse Pizza,Pizza,1,495.0,495.0,2026-12-02,20:15:00,29,Nagpur,4.6,UPI,Delivered
+492,1692,Abhishek Patil,McDonalds,McVeggie,Burger,3,175.0,525.0,2026-12-03,17:05:00,21,Thane,4.2,Cash,Delivered
+493,1693,Priya Shah,Subway,Veg Sandwich,Healthy,2,270.0,540.0,2026-12-04,13:10:00,23,Mumbai,4.3,Card,Delivered
+494,1694,Kiran More,Burger King,Whopper,Burger,1,325.0,325.0,2026-12-05,15:40:00,30,Pune,4.6,UPI,Delivered
+495,1695,Monika Patil,Pizza Hut,Veggie Paradise Pizza,Pizza,2,415.0,830.0,2026-12-06,18:40:00,35,Nashik,4.8,Cash,Delivered
+496,1696,Harshal Shah,KFC,Hot Crispy Chicken,Fast Food,2,365.0,730.0,2026-12-07,19:55:00,39,Nagpur,4.5,Card,Delivered
+497,1697,Deepali More,Dominos,Cheese n Corn Pizza,Pizza,1,415.0,415.0,2026-12-08,20:25:00,28,Thane,4.5,UPI,Delivered
+498,1698,Akash Patil,McDonalds,French Fries,Snacks,4,135.0,540.0,2026-12-09,17:15:00,20,Mumbai,4.1,Cash,Delivered
+499,1699,Rohit Shah,Subway,Paneer Tikka Sandwich,Healthy,2,300.0,600.0,2026-12-10,13:25:00,24,Pune,4.7,Card,Delivered
+500,1700,Neha More,Burger King,Cheese Burger,Burger,2,240.0,480.0,2026-12-11,15:35:00,28,Nashik,4.2,UPI,Delivered
